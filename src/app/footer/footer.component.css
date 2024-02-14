@@ -1,0 +1,57 @@
+/* styles.css */
+
+.footer-container {
+    background-color: white; /* Couleur de fond du pied de page */
+    color: black; /* Couleur du texte du pied de page */
+    padding: 30px 150px 30px 150px; /* Espacement intérieur du pied de page */
+    margin: 20px 0px 0px 0px;
+    width: 100%; /* Le pied de page prend toute la largeur de l'écran */
+  }
+  @media (max-width: 768px) {
+    .footer-container{
+        padding: 20px 80px 30px 50px;
+        
+    }
+    
+}
+
+/* Dans votre fichier app-footer.component.css */
+.site-presentation {
+    margin-top: 20px;
+  }
+  
+  .site-presentation h3 {
+    font-size: 18px;
+    color: #3333cc; /* Couleur du texte */
+  }
+  
+  .site-presentation p {
+    font-size: 14px;
+    color: #666; /* Couleur du texte */
+    line-height: 1.5; /* Espacement entre les lignes */
+  }
+  
+img{
+    width: 150px;
+}
+h4 {
+    font-size: 18px;
+    color: #3333cc; /* Couleur du texte */
+    text-align: center;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+li a:hover{
+    color: #3333cc;
+}
+
+.info p{
+    text-align: center;
+}

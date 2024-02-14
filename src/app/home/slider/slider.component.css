@@ -1,0 +1,33 @@
+
+
+.desktop-only{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .desktop-only{
+        display: block;
+    }
+    .carousel {
+      display: none;
+    }
+    .mobile-slider {
+        display: flex;
+        overflow-x: auto;
+        width: 350px;
+        /* Assurez-vous que les éléments de cadre ont la bonne largeur et hauteur */
+      }
+
+      .card {
+        flex: 0 0 auto; /* Ajustez la flexibilité selon vos besoins */
+        width: 8rem !important; /* Ajustez la largeur de chaque carte selon vos besoins */
+        margin-right: 10px; /* Ajoutez une marge entre les cartes si nécessaire */
+      }
+}
+  
+.card {
+    margin: 0;
+    width: 12rem;
+}
+/* styles.css */
+
